@@ -1,0 +1,87 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.esafai_color {
+  background-color: #023047;
+}
+
+.esafai_bg {
+  background-color: #8ecae6;
+  padding: 2%;
+  border-radius: 10rem;
+}
+
+.esafai_buy {
+  width: 100%;
+}
+
+.esafai_main {
+  padding: 2rem 0 0 0;
+}
+
+.esafai_form {
+  width: 75%;
+  max-width: 75%;
+  margin: 0 auto;
+}
+
+.esafai_form_header {
+  background-color: #8ecae6 !important;
+  color: #ffffff !important;
+}
+
+.esafai_footer {
+  background-color: #d9d9d9;
+  padding: 2rem;
+  margin: 2rem auto 0 auto;
+  border-top: 1px solid #023047;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+
+.esafai_footer p {
+  color: #000000;
+  font-weight: 900;
+  text-align: center;
+}
+
+.esafai_main_content {
+  margin: 0 auto;
+}
